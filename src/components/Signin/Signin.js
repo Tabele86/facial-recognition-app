@@ -17,10 +17,10 @@ class Signin extends React.Component {
 		this.setState({ signInPassword: event.target.value });
 	};
 
-	onSubmitSignIn = () => {
-		fetch('http://localhost:3000/signin', {
+	onSubmitSignIn = (event) => {
+		fetch('http://localhost:3001/signin', {
 			method: 'post',
-			headers: { 'Content-Type': 'application/json' },
+			headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
 			body: JSON.stringify({
 				email: this.state.signInEmail,
 				password: this.state.signInPassword
