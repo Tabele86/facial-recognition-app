@@ -1,6 +1,6 @@
 {
   "name": "facial-recognition-app",
-  "homepage": "https://git.heroku.com/infinite-eyrie-02364.git",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
