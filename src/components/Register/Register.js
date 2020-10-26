@@ -18,7 +18,7 @@ const Register = ({ loadUser, onRouteChange }) => {
 	};
 
 	const onSubmitSignIn = () => {
-		fetch('https://immense-basin-63065.herokuapp.com//register', {
+		fetch('https://immense-basin-63065.herokuapp.com/register', {
 			method: 'post',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
