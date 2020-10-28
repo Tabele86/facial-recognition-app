@@ -1,10 +1,10 @@
 export const particlesOptions = {
 	particles: {
 		number: {
-			value: 150,
+			value: 30,
 			density: {
 				enable: true,
-				value_area: 800
+				value_area: 400
 			}
 		},
 		shape: {
@@ -36,13 +36,13 @@ export const particlesOptions = {
 		events: {
 			onhover: {
 				enable: true,
-				mode: 'repulse'
+				mode: 'grab'
 			},
 			resize: true
 		},
 		modes: {
-			repulse: {
-				distance: 100,
+			grab: {
+				distance: 400,
 				duration: 0.4
 			}
 		}
