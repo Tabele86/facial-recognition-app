@@ -1,3 +1,4 @@
+//this edits particle effects in background
 export const particlesOptions = {
 	particles: {
 		number: {
