@@ -6,7 +6,7 @@ export const calculateFaceLocation = (data) => {
 	const image = document.getElementById('inputimage');
 	const width = Number(image.width);
 	const height = Number(image.height);
-
+	console.log(width, height);
 	// Return an object to fill the box state, which tells us the corner dots of the box
 	return {
 		leftCol: clarifaiFace.left_col * width,
