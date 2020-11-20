@@ -84,7 +84,7 @@ const App = () => {
 				}
 				displayFacebox(calculateFaceLocation(response), dispatch);
 			})
-			.catch(console.log);
+			.catch((err) => console.log(err));
 	};
 
 	const onRouteChange = (route) => {
