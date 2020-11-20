@@ -5,33 +5,26 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "clarifai": "^2.9.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-particles-js": "^3.4.0",
-    "react-scripts": "^3.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-particles-js": "^2.7.1",
+    "react-scripts": "^2.1.8",
     "react-tilt": "^0.1.4",
-    "serve": "^11.3.2",
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
